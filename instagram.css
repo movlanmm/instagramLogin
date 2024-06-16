@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img{
+    width: 380px;
+    height: 580px;
+}
+
+.right{
+  width: 350px;
+  margin-left: 20px;
+}
+
+.top-section{
+    height: 402px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+.logo-image{
+    margin-bottom: 30px;
+}
+.logo-image img{
+    width: 80%;
+}
+
+.field{
+    margin-bottom: 10px;
+}
+
+.field input{
+    height: 36px;
+    width: 266px;
+    border: 1px solid rgb(219, 219, 219);
+    font-size: 14px;
+    font-weight: 400px;
+    padding-left: 5px;
+    border-radius: 3px;
+}
+
+.field input::placeholder{
+    font-size: 12px;
+    padding: 9px 0 7px 8px;
+}
+.login-button{
+    background-color: transparent;
+    margin-top: 15px;
+}
+.login-button button{
+    height: 32px;
+    width: 266px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 149, 246);
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.line-view{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.left-line{
+    height: 1px;
+    width: 106px;
+    background-color: rgb(219, 219, 219);
+}
+
+.line-view span {
+    font-size: 14px;
+    font-weight: 400;
+}
+.right-line{
+    height: 1px;
+    width: 106px;
+    background-color: rgb(219, 219, 219);
+}
+
+.facebook-button{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 268px;
+    height: 21px;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.facebook-button img{
+    width: 16px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.facebook-button span{
+    color: rgb(56, 81, 133);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.forgot a{
+    color: rgb(0, 55, 107);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.middle-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    width: 350px;
+    height: 61px;
+}
+
+.middle-section a{
+    color: rgb(0, 149, 246);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.bottom-section{
+    text-align: center;
+    margin-top: 16px;
+}
+.app-buttons{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.app-buttons button{
+    border: none;
+    cursor: pointer;
+}
+.app-buttons button img{
+    width: 136px;
+    height: 44px;
+}
+
+@media (min-width:200px) and (max-width:875px){
+
+    .container{
+        width: 100% !important;
+    }
+
+    .left{
+        display: none;
+    }
+
+}
+
